@@ -1,18 +1,17 @@
-<!-- In the HTML file welcome we write the code used for structure and display the web page and the content.-->
+<!-- In the ftlh file welcome we write the code used for structure and display the web page and the content.-->
 <!DOCTYPE html>
 
-<!-- Thymeleaf documentation: http://www.thymeleaf.org
-Thymeleaf is used as markup template language.
-Thymeleaf templates work like HTML, allows prototyping without running the app.-->
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!-- FreeMarker documentation: https://freemarker.apache.org
+FreeMarker is used as markup template language.
+FreeMarker templates work like HTML, allows prototyping without running the app.-->
+<html lang="en" xmlns="https://freemarker.apache.org">
 
 <!-- Head element gives general information about the web,
 which does not appear on the page, only in the tab and
 contains the tittle of the page "Hello world". -->
 <head>
     <title>Hello world</title>
-    <link th:href="@{/webjars/bootstrap/5.1.0/css/bootstrap.min.css}"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
           rel="stylesheet"
           crossorigin="anonymous">
 </head>
@@ -29,23 +28,23 @@ contains the tittle of the page "Hello world". -->
     <h1 class="display-5 fw-bold">My first Web App</h1>
     <!-- Div element is used to create group of content.
          P label is used to introduce text on the document.
-         th:text="${message}" is using app.message from application.properties.
-	
-	The next piece of information is related to the 
-	META-INF/additional-spring-configuration-metadata.json file but is 
+         "${message}" is using app.message from application.properties.
+
+	The next piece of information is related to the
+	META-INF/additional-spring-configuration-metadata.json file but is
 	added here because it's not possible to write comments in a JSON file.
 
 	 In the META-INF folder there is a configuration metadata file and it's
-	 written in a JSON format. The file contains a 'property', which is a 
+	 written in a JSON format. The file contains a 'property', which is a
 	 configuration item that the user specifies with a given value. In this
-	 case, the name of the property is  app.message (this attribute is 
-	 mandatory) and its value is specified in the application.properties 
-	 file ('Hola estudiante'). The attribute 'type' specifies the full signature of the data type of the 
+	 case, the name of the property is  app.message (this attribute is
+	 mandatory) and its value is specified in the application.properties
+	 file ('Hola estudiante'). The attribute 'type' specifies the full signature of the data type of the
 	 property (in this case the value of the property must be a String) . Finally, the description attribute
-	 provides a short description of the property that can be displayed to users. 
+	 provides a short description of the property that can be displayed to users.
     -->
     <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4" th:text="${message}">Hello student.</p>
+        <p class="lead mb-4"> ${message!"Hello student."}</p>
     </div>
 </div>
 
@@ -53,12 +52,9 @@ contains the tittle of the page "Hello world". -->
 Webjars are client-side web libraries packaged into java archive files.
 Webjars allows to manage this client-side dependencies in web applications, and can be used with the build tool gradle.
 With this script element Bootstrap is available on the project and can be used on the application.-->
-<script th:src="@{/webjars/bootstrap/popper/js/2.9.3/umd/popper.min.js}"
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         crossorigin="anonymous"></script>
-<script
-        th:src="@{/webjars/bootstrap/5.1.0/js/bootstrap.min.js}"
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
 </body>
 </html>
