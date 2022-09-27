@@ -7,7 +7,7 @@ Some ideas for obtaining a :gift: if you are the first that:
 - ~**Moby Dick**: Use Docker to run the app~ solved by [hec7orci7o](https://github.com/Hec7or-Uni/lab1-git-race).
 - ~**Moby Dick II**: Use Docker Compose to run the app~ solved by [hec7orci7o](https://github.com/Hec7or-Uni/lab1-git-race).
 - ~**Moby Dick III**: Use Kubernetes (minikube) to run the app~ solved by [ZenithGD](https://github.com/ZenithGD/lab1-git-race).
-- **Home improvement**: Use a markup template language different from Thymeleaf (server side)
+- ~**Home improvement**: Use a markup template language different from Thymeleaf (server side)~ solved by [Berty980](https://github.com/Berty980/lab1-git-race).
 - **Home improvement II**: Use an endpoint that returns the message and update the HTML in client side (no MVC server side)
 - **Home improvement III**: Use modern JS framework (React) and a Restful web service (no MVC server side)
 
@@ -33,4 +33,5 @@ user name | NIA    | GitHub Action |Score
 [motinsa](https://github.com/motinsa/lab1-git-race) |797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
 [newfeels](https://github.com/newfeels/lab1-git-race) | 779898 | [![BuildStatus](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml)
 [p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
+[Berty980](https://github.com/Berty980/lab1-git-race) | 735976 | [![BuildStatus](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml) | :gift:
 [797021](https://github.com/797021/lab1-git-race) | 797021 | [![Build Status](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml)
