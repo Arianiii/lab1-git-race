@@ -34,3 +34,4 @@ user name | NIA    | GitHub Action |Score
 [newfeels](https://github.com/newfeels/lab1-git-race) | 779898 | [![BuildStatus](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml)
 [p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
 [Berty980](https://github.com/Berty980/lab1-git-race) | 735976 | [![BuildStatus](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml) | :gift:
+[797021](https://github.com/797021/lab1-git-race) | 797021 | [![Build Status](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml)
