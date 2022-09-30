@@ -36,4 +36,3 @@ user name | NIA    | GitHub Action |Score
 [Berty980](https://github.com/Berty980/lab1-git-race) | 735976 | [![BuildStatus](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml) | :gift:
 [797021](https://github.com/797021/lab1-git-race) | 797021 | [![Build Status](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml)
 [Daniel-dgp](https://github.com/Daniel-dgp/lab1-git-race) | 756128 | [![Build Status](https://github.com/Daniel-dgp/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Daniel-dgp/lab1-git-race/actions/workflows/ci.yml)
-(https://travis-ci.org/Daniel-dgp/lab1-git-race)
