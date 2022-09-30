@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository
 
 /**
  * Repository class for connecting to database.
- * For demostration used local variable as list of students
+ * For demostration used local variable as list of greetings
  * code modified from original example: https://github.com/sreeharikv112/springbootrestapikt
  */
 
