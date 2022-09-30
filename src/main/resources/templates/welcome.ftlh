@@ -91,7 +91,7 @@ With this script element Bootstrap is available on the project and can be used o
                 document.getElementById("date").innerHTML = this.responseText;
             }
         };
-        xhttp.open('GET', 'http://localhost:8080/date', true);
+        xhttp.open('GET', '/date', true);
         xhttp.send();
     }
 </script>

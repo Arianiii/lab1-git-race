@@ -61,14 +61,8 @@ class HelloController {
      */
     @GetMapping("/date")
     fun date(): ResponseEntity<String> {
-        val fmt = SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
-        val end = fmt.parse("22/12/2022 00:00:00")
-        val milliseconds = end.time - System.currentTimeMillis()
-        val days = (milliseconds / (1000 * 3600 * 24))
-        val weeks = days.div(7)
-        val response: String = "Quedan " + weeks + " semanas y " +
-                days % 7 + " días de cuatrimestre"
+        val date: Date = DateImplementor()
         val headers = HttpHeaders()
-        return ResponseEntity(response , headers, HttpStatus.OK)
+        return ResponseEntity(date.calculateDaysLeft("22/12/2022","dd/MM/yyyy"), headers, HttpStatus.OK)
     }
 }
