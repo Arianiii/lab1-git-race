@@ -3,6 +3,10 @@ package es.unizar.webeng.hello.controller
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.http.HttpHeaders
+import org.springframework.http.HttpStatus
+import org.springframework.http.ResponseEntity
+import java.text.SimpleDateFormat
 
 /** 
  *  Controller class.
@@ -44,5 +48,21 @@ class HelloController {
     fun welcome(model: MutableMap<String,Any>): String {
         model["message"] =  message
         return "welcome"
+    }
+
+    /**
+     * Response to /date request
+     *
+     * This function is executed when the HTTP route request matches the root URL of the server.
+     *
+     * @return string of how mane days are left till the end of the semester as an HTTP response.
+     *
+     *         ResponseEntity represents an HTTP response, including headers, body and status.
+     */
+    @GetMapping("/date")
+    fun date(): ResponseEntity<String> {
+        val date: Date = DateImplementor()
+        val headers = HttpHeaders()
+        return ResponseEntity(date.calculateDaysLeft("22/12/2022","dd/MM/yyyy"), headers, HttpStatus.OK)
     }
 }

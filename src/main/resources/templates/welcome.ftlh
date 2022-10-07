@@ -46,6 +46,15 @@ contains the tittle of the page "Hello world". -->
     <div class="col-lg-6 mx-auto">
         <p class="lead mb-4"> ${message!"Hello student."}</p>
     </div>
+
+    <div class="col-lg-6 mx-auto">
+            <!-- Button tag is used to create a clickable button on a webpage. Once it's
+                 clicked, then performs a programmable action. For example
+                 here calls a function called 'request'
+            -->
+            <button type="button" onclick="request()">Buenos días</button>
+            <div id="date"></div>
+        </div>
 </div>
 
 <!-- Webjars documentation: https://www.webjars.org/
@@ -56,5 +65,35 @@ With this script element Bootstrap is available on the project and can be used o
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
+
+<!-- AJAX allows web pages to be updated asynchronously by exchanging data with a web
+     server without reloading the whole page.
+     AJAX uses a XMLHttpRequest object to request data from a web server.
+
+     The XMLHttpRequest object can be used to exchange data with a web server behind
+     the scenes. This means that it's possible to update parts of a web page, without
+     reloading the whole page.
+
+     A callback function is a function passed as a parameter to another function. It
+     contains the code to execute when the response is ready. In this case the server
+     returns an HTTP response with a status, if it's a 200 code, 'getElementById' looks
+     for the id 'date' and then update the HTML code with the server response of its div
+     group.
+
+     'open' and 'send' to send the request to the server. It doesn't matter that 'send'
+     is after the callback declaration, it's an asynchronous call.
+-->
+<script type="text/javascript">
+    function request() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("date").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open('GET', '/date', true);
+        xhttp.send();
+    }
+</script>
 </body>
 </html>

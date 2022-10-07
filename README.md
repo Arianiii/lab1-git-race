@@ -30,8 +30,10 @@ user name | NIA    | GitHub Action |Score
 [PilarEster](https://github.com/PilarEster/lab1-git-race) | 800033 | [![BuildStatus](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml)
 [Jaime1401](https://github.com/Jaime1401/lab1-git-race) | 801965 | [![BuildStatus](https://github.com/Jaime1401/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Jaime1401/lab1-git-race/actions/workflows/ci.yml)
 [798523](https://github.com/798523/lab1-git-race) | 798523 | [![BuildStatus](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml)
-[motinsa](https://github.com/motinsa/lab1-git-race) |797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
+[motinsa](https://github.com/motinsa/lab1-git-race) | 797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
 [newfeels](https://github.com/newfeels/lab1-git-race) | 779898 | [![BuildStatus](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml)
 [p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
 [Berty980](https://github.com/Berty980/lab1-git-race) | 735976 | [![BuildStatus](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml) | :gift:
 [797021](https://github.com/797021/lab1-git-race) | 797021 | [![Build Status](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/797021/lab1-git-race/actions/workflows/ci.yml)
+[GonchiMonchi](https://github.com/GonchiMonchi/lab1-git-race) | 759561 | [![Build Status](https://github.com/GonchiMonchi/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GonchiMonchi/lab1-git-race/actions/workflows/ci.yml)
+
