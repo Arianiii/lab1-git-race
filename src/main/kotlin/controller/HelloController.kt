@@ -1,4 +1,4 @@
-https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/pullspackage es.unizar.webeng.hello.controller
+package es.unizar.webeng.hello.controller
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Controller
