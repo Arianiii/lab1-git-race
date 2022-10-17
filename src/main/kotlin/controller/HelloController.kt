@@ -51,7 +51,22 @@ class HelloController {
     }
 
     /**
-<<<<<<< HEAD
+     * Response to /date request
+     *
+     * This function is executed when the HTTP route request matches the root URL of the server.
+     *
+     * @return string of how mane days are left till the end of the semester as an HTTP response.
+     *
+     *         ResponseEntity represents an HTTP response, including headers, body and status.
+     */
+    @GetMapping("/date")
+    fun date(): ResponseEntity<String> {
+        val date: Date = DateImplementor()
+        val headers = HttpHeaders()
+        return ResponseEntity(date.calculateDaysLeft("22/12/2022","dd/MM/yyyy"), headers, HttpStatus.OK)
+    }
+
+    /*
      *  Response to /rest request
      *
      *  This function is executed when the HTTP route request matches the root URL of the server.  
@@ -66,20 +81,5 @@ class HelloController {
     @GetMapping("/rest")
     fun restPage(): String {
         return "restPage"
-=======
-     * Response to /date request
-     *
-     * This function is executed when the HTTP route request matches the root URL of the server.
-     *
-     * @return string of how mane days are left till the end of the semester as an HTTP response.
-     *
-     *         ResponseEntity represents an HTTP response, including headers, body and status.
-     */
-    @GetMapping("/date")
-    fun date(): ResponseEntity<String> {
-        val date: Date = DateImplementor()
-        val headers = HttpHeaders()
-        return ResponseEntity(date.calculateDaysLeft("22/12/2022","dd/MM/yyyy"), headers, HttpStatus.OK)
->>>>>>> 6c5af7aa0093f5df6790dced13ad33b842e9fc57
     }
 }
