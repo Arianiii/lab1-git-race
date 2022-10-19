@@ -37,9 +37,9 @@ contains the tittle of the page "Hello world". -->
 Webjars are client-side web libraries packaged into java archive files.
 Webjars allows to manage this client-side dependencies in web applications, and can be used with the build tool gradle.
 With this script element Bootstrap is available on the project and can be used on the application.-->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+<script th:src="@{/webjars/bootstrap/pooper/js/2.9.3/umd/popper.min.js}"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+<script th:src="@{/webjars/bootstrap/5.1.0/js/bootstrap.min.js}"
         crossorigin="anonymous"></script>
 
 <!-- As we have no longer the MVC, we have to get the value of message.
@@ -50,7 +50,9 @@ The response will be the value of the message, and then we will assign that to t
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
     let message = document.getElementById("message")
-    axios.get("http://localhost:8080/rest/message")
+    // Relative URL. It would resolve as http://localhost/rest/message
+    // The resolving URL will be adapted with the protocol and port used
+    axios.get("/rest/message")
     .then(response => {
         console.log("Response: " + response.data)
         message.innerText = response.data
