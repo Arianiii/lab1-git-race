@@ -8,7 +8,7 @@ Some ideas for obtaining a :gift: if you are the first that:
 - ~**Moby Dick II**: Use Docker Compose to run the app~ solved by [hec7orci7o](https://github.com/Hec7or-Uni/lab1-git-race).
 - ~**Moby Dick III**: Use Kubernetes (minikube) to run the app~ solved by [ZenithGD](https://github.com/ZenithGD/lab1-git-race).
 - ~**Home improvement**: Use a markup template language different from Thymeleaf (server side)~ solved by [Berty980](https://github.com/Berty980/lab1-git-race).
-- **Home improvement II**: Use an endpoint that returns the message and update the HTML in client side (no MVC server side)
+- ~**Home improvement II**: Use an endpoint that returns the message and update the HTML in client side (no MVC server side)~ solved by [798523](https://github.com/798523/lab1-git-race).
 - **Home improvement III**: Use modern JS framework (React) and a Restful web service (no MVC server side)
 
 user name | NIA    | GitHub Action |Score
@@ -29,8 +29,8 @@ user name | NIA    | GitHub Action |Score
 [GueorguiKachan](https://github.com/GueorguiKachan/lab1-git-race) | 794999 | [![Build Status](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml)
 [PilarEster](https://github.com/PilarEster/lab1-git-race) | 800033 | [![BuildStatus](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml)
 [Jaime1401](https://github.com/Jaime1401/lab1-git-race) | 801965 | [![BuildStatus](https://github.com/Jaime1401/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Jaime1401/lab1-git-race/actions/workflows/ci.yml)
-[798523](https://github.com/798523/lab1-git-race) | 798523 | [![BuildStatus](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml)
-[motinsa](https://github.com/motinsa/lab1-git-race) | 797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
+[798523](https://github.com/798523/lab1-git-race) | 798523 | [![BuildStatus](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml) | :gift:
+[motinsa](https://github.com/motinsa/lab1-git-race) |797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
 [newfeels](https://github.com/newfeels/lab1-git-race) | 779898 | [![BuildStatus](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml)
 [p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
 [Berty980](https://github.com/Berty980/lab1-git-race) | 735976 | [![BuildStatus](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Berty980/lab1-git-race/actions/workflows/ci.yml) | :gift:

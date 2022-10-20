@@ -65,4 +65,21 @@ class HelloController {
         val headers = HttpHeaders()
         return ResponseEntity(date.calculateDaysLeft("22/12/2022","dd/MM/yyyy"), headers, HttpStatus.OK)
     }
+
+    /*
+     *  Response to /rest request
+     *
+     *  This function is executed when the HTTP route request matches the root URL of the server.  
+     *
+     *  The annotation [GetMapping] maps a 'get' request 
+     *  to a methodpassinf the "/rest" path as a patameter.
+     *  The method returns the file resorces/templates/restPage.html
+     *
+     *  Here, the MVC is not used so we will need to update the value of `message` in
+     *  the corresponding html page.
+     */
+    @GetMapping("/rest")
+    fun restPage(): String {
+        return "restPage"
+    }
 }
